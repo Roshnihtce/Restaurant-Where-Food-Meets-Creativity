@@ -1,161 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Roshni Singh">
     <meta name="description"
         content="This project is to design a Landing page for a Restaurant. You're given a Figma Design for the same.">
-    
+
     <title>INTERNAL - Restaurant-Where Food Meets Creativity</title>
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Inder&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Inder&display=swap"
+        rel="stylesheet">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="./assets/css/style.css"> 
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/index.css">
-    
- 
+
 </head>
 <body>
+    <header>
+        <!-- Circle Image (Background Decoration) -->
         <img src="./assets/images/circles.svg" alt="Circle" class="circle-image">
-    <!-- Header Section -->
-         <header class="d-flex justify-content-between align-items-center">
-            <div class="logo">
-                <img src="./assets/images/restaurant_logo.svg" alt="Restaurant Logo">
-            </div>
-            <nav>
-                <ul class="d-flex">
-                    <li><a href="javascript: void(0)">Menu</a></li>
-                    <li><a href="javascript: void(0)">Events</a></li>
-                    <li><a href="javascript: void(0)">Gallery</a></li>
-                    <li><a href="javascript: void(0)">About</a></li>
-                    <li><a href="javascript: void(0)">Contact</a></li>
-                </ul>
-            </nav>
-            <a href="javascript: void(0)" class="btn book-table">Book a table</a>
-        </header>
-    
-        <!-- Main Section -->
-        <main class="d-flex justify-content-between align-items-center">
-            <div class="content">
-                <!-- Food Delicious Logo -->
-                <div class="logo">
-                    <img src="./assets/images/foods_delicious_logo.svg" alt="Food Delicious Logo">
-                </div>
-    
-                <h1>We provide the <span>best food for you</span></h1>
-                <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    
-                <div class="buttons">
-                    <a href="javascript: void(0)" class="btn">Menu</a>
-                    <a href="javascript: void(0)" class="btn book">Book a table</a>
-                </div>
-    
-                <div class="social-icons d-flex">
-                    <a href="javascript: void(0)"><img src="./assets/images/facebook_logo.svg" alt="Facebook Logo"></a>
-                    <a href="javascript: void(0)"><img src="./assets/images/instagram_logo.svg" alt="Instagram Logo"></a>
-                    <a href="javascript: void(0)"><img src="./assets/images/twitter_logo.svg" alt="Twitter Logo"></a>
-                </div>
-            </div>
-            <div class="image-container">
-                <img src="./assets/images/banner_image.svg" class="food-image" alt="Delicious Food">
-                <img src="./assets/images/leaves_1.svg" class="restaurant-image" alt="Restaurant Interior">
-                <img src="./assets/images/leaves_2.svg" class="restaurant-image" alt="Restaurant Interior"> 
-                <img src="./assets/images/leaves_3.svg" class="restaurant-image" alt="Restaurant Interior">
-            </div>
-        </main>
-<!-- Footer -->
-<footer class="footer bg-light">
-    <section class="footer-section">
+
+        <!-- Header Section inside Container -->
         <div class="container">
-            <div class="image-container">
-                <img src="./assets/images/footer_image.svg" class="background-image" alt="Footer Image">
-                <div class="image-text">
-                    <p class="font-50">Get Our Promo Code by <span>Subscribing To Our Newsletter</span></p>
-                        <form action="/submit" method="post" class="email-form">
-                            <div>
-                                <input type="email" id="email" placeholder="Enter your email" required>
-                                <button type="submit">Subscribe</button>
-                            </div>
-                        </form>
-                </div>
-            </div>
-            <!-- Footer Main Content -->
-            <div class="footer-top d-flex">
-                <div class="lens">
-                    <img src="./assets/images/lens_light.svg" alt="Lens">
-                </div>
-                <div class="footer-logo">
+            <header class="d-flex justify-content-between align-items-center">
+                <div class="logo">
                     <img src="./assets/images/restaurant_logo.svg" alt="Restaurant Logo">
-                    <p class="font-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-                        <a href="javascript: void(0)">Learn more</a>
-                    </p>
-                    <div class="opening-hours-container">
-                        <p class="font-12 text-body"><strong>OPENING HOURS</strong></p>
-                        <div class="opening-hours">
-                            <div class="day-time">
-                                <div class="day">Monday - Friday</div>
-                                <div class="time">8:00 am to 9:00 pm</div>
-                            </div>
-                            <div class="day-time">
-                                <div class="day">Saturday</div>
-                                <div class="time">8:00 am to 9:00 pm</div>
-                            </div>
-                            <div class="day-time">
-                                <div class="day">Sunday</div>
-                                <div class="time closed">CLOSED</div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
-                <!-- Navigation & Dishes Links -->
-                <div class="footer-links d-flex">
-                    <div class="nav-links">
-                        <h5>NAVIGATION</h5>
-                        <ul>
-                            <li><a href="javascript: void(0)">Menu</a></li>
-                            <li><a href="javascript: void(0)">About us</a></li>
-                            <li><a href="javascript: void(0)">Contact us</a></li>
-                            <li><a href="javascript: void(0)">Main dishes</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="dishes-links">
-                        <h5>DISHES</h5>
-                        <ul>
-                            <li><a href="javascript: void(0)">Fish & Veggies</a></li>
-                            <li><a href="javascript: void(0)">Tofu Chili</a></li>
-                            <li><a href="javascript: void(0)">Egg & Cucumber</a></li>
-                            <li><a href="javascript: void(0)">Lumpia w/Sauce</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Social Media Links -->
-                <div class="social-links">
-                    <h5>FOLLOW US</h5>
-                    <ul>
-                        <li><a href="javascript: void(0)"><img src="./assets/images/facebook_logo.svg" alt="Facebook"></a></li>
-                        <li><a href="javascript: void(0)"><img src="./assets/images/instagram_logo.svg" alt="Instagram"></a></li>
-                        <li><a href="javascript: void(0)"><img src="./assets/images/twitter_logo.svg" alt="Twitter"></a></li>
+                <nav>
+                    <ul class="d-flex">
+                        <li><a href="javascript: void(0)">Menu</a></li>
+                        <li><a href="javascript: void(0)">Events</a></li>
+                        <li><a href="javascript: void(0)">Gallery</a></li>
+                        <li><a href="javascript: void(0)">About</a></li>
+                        <li><a href="javascript: void(0)">Contact</a></li>
                     </ul>
+                </nav>
+                <a href="javascript: void(0)" class="book-table">Book a table</a>
+            </header>
+        </div>
+    </header>
+    <main>
+        <!-- =============== Banner Section ================== -->
+        <section class="hero-section d-flex justify-content-between align-items-center">
+            <div class="container">
+                <div class="left-panel">
+                    <div class="logo-1">
+                        <img src="./assets/images/foods_delicious_logo.svg" alt="Food Delicious Logo">
+                    </div>
+                    <h1>We provide the <span>best food for you</span></h1>
+                    <p class="text-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                    <div class="buttons">
+                        <a href="javascript:void(0)" class="btn">Menu</a>
+                        <a href="javascript:void(0)" class="btn2">Book a table</a>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="social-icons">
+                        <a href="javascript:void(0)"><img src="./assets/images/facebook_logo.svg"
+                            alt="Facebook"></a>
+                        <a href="javascript:void(0)"><img src="./assets/images/instagram_logo.svg"
+                            alt="Instagram"></a>
+                        <a href="javascript:void(0)"><img src="./assets/images/twitter_logo.svg" 
+                            alt="Twitter"></a>
+                    </div>
+                </div>
+                <!-- Right Panel (Images) -->
+                <div class="image-container">
+                    <img src="./assets/images/banner_image.svg" class="food-image" alt="Delicious Food">
+                    <!-- Decorative Leaves -->
+                    <img src="./assets/images/leaves_1.svg" class="restaurant-image leaves-top-left"
+                        alt="Decorative Leaves">
+                    <img src="./assets/images/leaves_2.svg" class="restaurant-image leaves-top-right"
+                        alt="Decorative Leaves">
+                    <img src="./assets/images/leaves_3.svg" class="restaurant-image leaves-bottom-right"
+                        alt="Decorative Leaves">
                 </div>
             </div>
-
-            <!-- Footer Bottom -->
-            <div class="footer-bottom d-flex justify-content-between">
-                <p class="font-16">&copy; 2022 Restaurants. All Rights Reserved. Designed by <strong>Isaac</strong></p>
-                <ul class="footer-policy d-flex">
-                    <li><a href="javascript: void(0)">Terms of Service</a></li>
-                    <li><a href="javascript: void(0)">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-</footer>
+        </section>
+    <!-- Our Special Dishes -->
+    </main>
 </body>
 </html>
